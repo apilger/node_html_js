@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "webpack-dev-server --watch --open chrome",
-    "copy": "cpx src/*.html public"
+   "copy": "cpx src/*.{html,js} public"
   },
   "author": "",
   "license": "ISC",
