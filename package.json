@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack-dev-server --watch --open chrome" 
+    "start:dev": "webpack-dev-server --watch --open chrome",
+    "copy": "cpx src/*.html public"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^6.5.1",
+    "cpx": "^1.5.0",
     "http-server": "^0.11.1",
     "webpack": "^4.41.0",
     "webpack-cli": "^3.3.9",
