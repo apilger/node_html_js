@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack-dev-server --watch --open chrome",
+    "start:dev": "npx webpack-dev-server   --open index.html",
     "copy": "cpx src/*.{html,js} public"
   },
   "author": "",
@@ -14,11 +14,11 @@
     "eslint": "^6.5.1"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^8.9.0",
     "cpx": "^1.5.0",
-    "http-server": "^0.12.1",
-    "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "http-server": "^14.1.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
   }
 }
