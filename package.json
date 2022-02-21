@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy": "make-dir public | copyfiles -f ./src/*.{html,js} public",
     "mkdir": "make-dir public",
-    "start:dev": "npx webpack-dev-server   --open public/i"
+    "start:dev": "npx webpack-dev-server --open index.html"
   },
   "author": "Andreas Pilger",
   "license": "ISC",
