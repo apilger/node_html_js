@@ -7,7 +7,9 @@ Klonen des Projektes:
 ## Start der App:
 - npm install
 - npm run copy
+   - Erstellt einen neuen Ordner ./public und kopiert alle html- und js-Files aus dem Ordner ./src in den Ordner ./public
 - npm run start:dev
--
+   - Startet einen Web-Server, welcher das File index.html im Ordner -./public anzeigt 
+
 
 
